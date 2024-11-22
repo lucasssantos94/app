@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+
+
+    <title>Tratativa de ordens</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="menu">
+            <a href="">Tratativa</a>
+            <a href="escala.html">Escala</a>
+        </nav>
+    </header>
+
+
+    <section class="container">
+
+        <h1 class="title">Tratativa de Ordens</h1>
+
+        <form action="" class="form" method="get" name="crom">
+            <fieldset>
+
+                <input list="listaMotos" type="text" name="moto" placeholder="Digite o Código do moto" required>
+
+                <datalist id="listaMotos">
+
+                    <option value="md011"></option>
+                    <option value="md012"></option>
+                    <option value="md015"></option>
+                    <option value="md016"></option>
+                    <option value="md018"></option>
+                    <option value="md020"></option>
+
+                    <option value="mi011"></option>
+                    <option value="mi012"></option>
+                    <option value="mi016"></option>
+                    <option value="mi017"></option>
+                    <option value="mi018"></option>
+                    <option value="mi020"></option>
+
+                    <option value="mm011"></option>
+                    <option value="mm012"></option>
+                    <option value="mm016"></option>
+                    <option value="mm017"></option>
+                    <option value="mm018"></option>
+                    <option value="mm020"></option>
+
+                </datalist>
+
+
+                <select name="fp" id="" onchange="displayInput()">
+                    <option value="">selecione</option>
+                    <option value="fp001">#fp001</option>
+                    <option value="fp002">#fp002</option>
+                    <option value="fp003">#fp003</option>
+                    <option value="fp004">#fp004</option>
+                    <option value="religação">religação</option>
+                    <option value="defeito interno">defeito interno</option>
+                    <option value="area de risco">area de risco</option>
+                    <option value="estrada de terra">estrada de terra</option>
+                    <option value="troca de ordem">troca de ordem</option>
+                </select>
+
+
+                <select name="cabo">
+                    <option value="" selected>selecione</option>
+                    <optgroup label="ORDEM COM RISCO" id="risco">
+                        <option>ramal</option>
+                        <option>secundario</option>
+                        <option>primário</option>
+                        <option>capa do secundario</option>
+                        <option>ip</option>
+                        <option>poste abalroado</option>
+                        <option>cruzeta danificada</option>
+
+                    </optgroup>
+
+                    <optgroup label="ORDEM SEM RISCO" id="semRisco">
+                        <option>ramal</option>
+                        <option>secundario</option>
+                        <option>primário</option>
+                        <option>medidor em curto</option>
+                        <option>bf atuada</option>
+                        <option>ramal barrigado</option>
+                        <option>ramal em curto</option>
+                        <option>rede em curto</option>
+                        <option>galhos sobre a rede</option>
+                        <option>capa do secundario</option>
+                        <option>poste abalroado sem risco</option>
+                        <option>cruzeta danificada sem risco</option>
+                    </optgroup>
+
+                    <optgroup label="OUTRAS REDE" id="outraRede">
+                        <option>telefonia</option>
+                        <option>ip</option>
+                    </optgroup>
+
+                </select>
+
+                <input type="text" name="troca" id="troca" placeholder="Nº da ordem">
+
+                <button>Gerar</button>
+
+                <textarea name="result" id="" cols="30" rows="5"></textarea>
+
+                <button id="copy" class="popup">Copiar texto <span class="popuptext" id="myPopup">texto copiado</span></button>
+
+            </fieldset>
+
+        </form>
+
+    </section>
+
+</body>
+
+</html>

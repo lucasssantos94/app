@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/escala.css">
+    <title>Escala de motos</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="menu">
+            <a href="/index.html">Tratativa</a>
+            <a href="escala.html">Escala</a>
+        </nav>
+    </header>
+
+    <main>
+        <form id="employee-form">
+            <label for="employee">Funcionário:</label>
+            <input list="employees" id="employee" name="employee" required>
+            <datalist id="employees">
+                <!-- <option value="MD010"></option> -->
+                <option value="INSERIR"></option>
+                <option value="MD011"></option>
+                <option value="MD012"></option>
+                <option value="MD016"></option>
+                <option value="MD017"></option>
+                <option value="MD020"></option>
+
+                <option value="MI011"></option>
+                <option value="MI012"></option>
+                <option value="MI016"></option>
+                <option value="MI017"></option>
+                <option value="MI020"></option>
+
+                <option value="MM011"></option>
+                <option value="MM012"></option>
+                <option value="MM016"></option>
+                <option value="MM017"></option>
+                <option value="MM020"></option>
+
+                <option value="WESLLEY"></option>
+                <option value="FABIO"></option>
+                <option value="JEFFERSON"></option>
+                <option value="THIAGO"></option>
+
+                <!-- Adicione mais opções aqui -->
+            </datalist>
+            <button type="button" id="add-button">Adicionar</button>
+        </form>
+        <table id="schedule-table">
+            <thead>
+                <tr>
+                    <th class="title-escala" colspan="6" contenteditable="true">
+                        LISTA DE ATIVAÇÃO <span class="period"></span> <span class="day"></span>
+                    </th>
+
+                </tr>
+                <tr>
+                    <th>CÓDIGO</th>
+                    <th>NOME DO COLABORADOR</th>
+                    <th>(BR) ENEL</th>
+                    <th>BASE</th>
+                    <th>INICIO DO TURNO</th>
+                    <th>FINAL DO TURNO</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Linhas da tabela serão adicionadas aqui -->
+            </tbody>
+        </table>
+    </main>
+
+    <script src="./js/escala.js"></script>
+</body>
+
+</html>

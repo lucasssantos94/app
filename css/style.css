@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #555;
+  padding: 20px;
+}
+
+a {
+  align-self: flex-start;
+}
+
+.header {
+  width: 100%;
+  height: 5vh;
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.img-escala {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  align-self: flex-start;
+}
+
+.container {
+  margin: 20px 0;
+  max-width: 750px;
+  min-height: 500px;
+  text-align: center;
+}
+
+.title {
+  text-transform: uppercase;
+  color: orangered;
+}
+
+.form fieldset {
+  padding: 15px;
+  text-align: center;
+}
+
+textarea {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  background-color: #555;
+  border: 2px solid #fff;
+  outline: none;
+  color: #fff;
+}
+
+textarea::selection {
+  background-color: rgba(255, 69, 0, 0.8);
+}
+
+optgroup {
+  display: none;
+}
+
+.inputSelected {
+  display: inline;
+}
+
+input[list],
+select,
+button,
+#troca {
+  padding: 10px;
+}
+
+#troca {
+  display: none;
+}
+
+input[list],
+#troca {
+  background-color: #555;
+  color: #fff;
+  font-size: 0.87rem;
+}
+
+input[list]::placeholder,
+#troca::placeholder {
+  color: #fff;
+}
+
+select {
+  background-color: #555;
+  color: #fff;
+}
+
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  background-color: orangered;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+#copy {
+  display: none;
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #000 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .form fieldset {
+    display: flex;
+    flex-direction: column;
+  }
+  input[list],
+  select,
+  button {
+    margin-bottom: 10px;
+  }
+}
