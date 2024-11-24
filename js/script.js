@@ -9,12 +9,12 @@ let btnCopy = document.getElementById("copy");
 // função para controlar o display dos inputs
 function displayInput() {
   // remove o atributo required do input cabo
-  if (fp.value != 'fp001' || fp.value != 'fp002') {
+  if (fp.value != "fp001" || fp.value != "fp002") {
     cabo.removeAttribute("required");
   }
 
-  if (fp.value != 'troca de ordem') {
-    troca.style.display = 'none'
+  if (fp.value != "troca de ordem") {
+    troca.style.display = "none";
   }
   switch (fp.value) {
     case "fp001":
@@ -74,14 +74,12 @@ function displayInput() {
     case "troca de ordem":
       cabo.style.display = "none";
       cabo.value = "";
-      troca.style.display = 'inline-block';
+      troca.style.display = "inline-block";
       troca.setAttribute("required", "required");
       cabo.removeAttribute("required");
 
-
       break;
   }
-
 }
 
 // função para gerar o texto
@@ -90,13 +88,12 @@ form.addEventListener("submit", (e) => {
 
   const riskyDealings = {
     "poste abalroado": `#${fp.value} ${moto.value} informa ${cabo.value} com risco, moto isolando necessário equipe para reparo.`,
-
-  }
+  };
 
   switch (fp.value) {
     case "fp001":
       if (cabo.value === "poste abalroado") {
-        result.value = riskyDealings[cabo.value]
+        result.value = riskyDealings[cabo.value];
         break;
       } else if (cabo.value === "cruzeta danificada") {
         result.value = `#${fp.value} ${moto.value} informa ${cabo.value} com risco, moto isolando necessário equipe para reparo.`;
@@ -116,12 +113,16 @@ form.addEventListener("submit", (e) => {
       } else if (cabo.value === "ramal em curto") {
         result.value = `#${fp.value} ${moto.value} informa ${cabo.value} sem risco no momento necessário equipe para reparo.`;
         break;
-      }
-      else if (cabo.value === "galhos sobre a rede") {
+      } else if (cabo.value === "cliente sem fase") {
+        result.value = `#${fp.value} ${moto.value} informa ${cabo.value},  moto não localizou cabo partido sem risco no momento necessário equipe para averiguação`;
+        break;
+      } else if (cabo.value === "cruzeta danificada") {
+        result.value = `#${fp.value} ${moto.value} informa ${cabo.value} sem risco no momento necesario equipe para reparo.`;
+        break;
+      } else if (cabo.value === "galhos sobre a rede") {
         result.value = `#${fp.value} ${moto.value} informa ${cabo.value} sem risco no momento necessário equipe de poda`;
         break;
-      }
-      else if (cabo.value === "capa do secundario") {
+      } else if (cabo.value === "capa do secundario") {
         result.value = `#${fp.value} ${moto.value} informa ${cabo.value} partida no alto sem risco no momento necessário equipe para remoção`;
         break;
       } else if (cabo.value === "rede em curto") {
@@ -134,7 +135,7 @@ form.addEventListener("submit", (e) => {
         result.value = `#${fp.value} ${moto.value} informa ${cabo.value} sem risco no momento necessário equipe para reparo.`;
         break;
       } else if (cabo.value === "poste abalroado sem risco") {
-        result.value = `#${fp.value} ${moto.value} informa ${cabo.value} de queda no momento, necessário equipe para reparo.`;
+        result.value = `#${fp.value} ${moto.value} informa poste abalroado sem risco de queda no momento, necessário equipe para reparo.`;
         break;
       } else if (cabo.value === "cruzeta danificada sem risco") {
         result.value = `#${fp.value} ${moto.value} informa ${cabo.value} no momento necessário equipe para reparo.`;
