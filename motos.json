@@ -84,8 +84,8 @@
         "nome": "JOAO VITOR XAVIER DE SOUZA",
         "br": "BR0060856395",
         "base": "GUARAPIRANGA",
-        "ativacao": "",
-        "desativacao": ""
+        "ativacao": "06:00",
+        "desativacao": "15:00"
     },
     "MG016": {
         "codigo": "MG016",
