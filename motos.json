@@ -1,32 +1,16 @@
 {
     "MB011": {
         "codigo": "MB011",
-        "nome": "FABIO FRANCISCO DA SILVA",
-        "br": "BR0179212638",
+        "nome": "JOÃO MARCELO COSTA DA SILVA",
+        "br": "BR0702499472",
         "base": "BARUERI",
         "ativacao": "06:00",
         "desativacao": "15:00"
-    },
-    "MB016": {
-        "codigo": "MB016",
-        "nome": "WAGNER VIANA GOUVEIA",
-        "br": "BR0339547318",
-        "base": "BARUERI",
-        "ativacao": "06:00",
-        "desativacao": "15:00"
-    },
-    "MB020": {
-        "codigo": "MB020",
-        "nome": "",
-        "br": "",
-        "base": "BARUERI",
-        "ativacao": "",
-        "desativacao": ""
     },
     "MC011": {
         "codigo": "MC011",
-        "nome": "LUCAS TEIXEIRA DE SOUZA",
-        "br": "BR0432911188",
+        "nome": "JOÃO VITOR XAVIER DE SOUZA",
+        "br": "BR0060856395",
         "base": "CAJATI",
         "ativacao": "06:00",
         "desativacao": "15:00"
@@ -41,24 +25,24 @@
     },
     "MC020": {
         "codigo": "MC020",
-        "nome": "MARCOS PAULO DO NASCIMENTO",
+        "nome": "PAULO JOSE DE OLIVEIRA GOMES",
         "br": "BR0159063608",
         "base": "CAJATI",
-        "ativacao": "",
-        "desativacao": ""
+        "ativacao": "13:00",
+        "desativacao": "15:00"
     },
     "MD011": {
         "codigo": "MD011",
-        "nome": "VINICIUS JORDAO DE SOUZA",
-        "br": "BR0862918955",
+        "nome": "RÓGER FAUSTINO DA SILVA",
+        "br": "BR0900418548",
         "base": "DIADEMA",
         "ativacao": "06:00",
         "desativacao": "15:00"
     },
     "MD016": {
         "codigo": "MD016",
-        "nome": "WAGNER VIANA GOUVEIA",
-        "br": "BR0339547318",
+        "nome": "OTÁVIO OLIVEIRA PIMENTEL",
+        "br": "BR0368060338",
         "base": "DIADEMA",
         "ativacao": "13:00",
         "desativacao": "22:00"
@@ -71,37 +55,21 @@
         "ativacao": "13:00",
         "desativacao": "22:00"
     },
-    "MD020": {
-        "codigo": "MD020",
-        "nome": "WILSON MORAIS DE OLIVEIRA",
-        "br": "BR0277866288",
-        "base": "DIADEMA",
-        "ativacao": "",
-        "desativacao": ""
-    },
     "MG011": {
         "codigo": "MG011",
-        "nome": "JOAO VITOR XAVIER DE SOUZA",
-        "br": "BR0060856395",
+        "nome": "WALLESON THIAGO DE SOUSA OLIVEIRA",
+        "br": "BR0433694638",
         "base": "GUARAPIRANGA",
         "ativacao": "06:00",
         "desativacao": "15:00"
     },
     "MG016": {
         "codigo": "MG016",
-        "nome": "PAULO JOSE DE OLIVEIRA GOMES",
-        "br": "BR0235604738",
+        "nome": "DORIVAL WESLLEY FABRI",
+        "br": "BR0359720538",
         "base": "GUARAPIRANGA",
         "ativacao": "13:00",
         "desativacao": "22:00"
-    },
-    "MG020": {
-        "codigo": "MG020",
-        "nome": "LEO JUNIOR DA FONSECA DIAS",
-        "br": "BR0155968668",
-        "base": "GUARAPIRANGA",
-        "ativacao": "",
-        "desativacao": ""
     },
     "MI011": {
         "codigo": "MI011",
@@ -111,69 +79,29 @@
         "ativacao": "06:00",
         "desativacao": "15:00"
     },
-    "MI012": {
-        "codigo": "MI012",
-        "nome": "ANDRÉ ARAGÃO",
-        "br": "BR0313776758",
-        "base": "ITAPECERICA",
-        "ativacao": "06:00",
-        "desativacao": "15:00"
-    },
     "MI016": {
         "codigo": "MI016",
-        "nome": "IGOR GABRIEL MONTEIRO ",
-        "br": "BR0493452078",
+        "nome": "MARCOS PAULO DO NASCIMENTO",
+        "br": "BR0159063608",
         "base": "ITAPECERICA",
         "ativacao": "13:00",
         "desativacao": "22:00"
-    },
-    "MI020": {
-        "codigo": "MI020",
-        "nome": "RAFAEL CORREA GOMES",
-        "br": "BR0329444808",
-        "base": "ITAPECERICA",
-        "ativacao": "",
-        "desativacao": ""
-    },
-    "MM011": {
-        "codigo": "MM011",
-        "nome": "MOACIR DE JESUS SILVA",
-        "br": "BR0161273168",
-        "base": "MONTE SANTO",
-        "ativacao": "06:00",
-        "desativacao": "15:00"
-    },
-    "MM012": {
-        "codigo": "MM012",
-        "nome": "FELIPE FERNANDES LOPES",
-        "br": "BR0382781058",
-        "base": "MONTE SANTO",
-        "ativacao": "06:00",
-        "desativacao": "15:00"
     },
     "MM016": {
         "codigo": "MM016",
-        "nome": "ITALLO SILVA FURTUOSO",
-        "br": "BR0393670008",
-        "base": "MONTE SANTO",
-        "ativacao": "13:00",
-        "desativacao": "22:00"
-    },
-    "MM017": {
-        "codigo": "MM017",
-        "nome": "MATHEUS REVERT CELESTINO",
-        "br": "BR0424040318",
+        "nome": "RENATO FELIX ATANAZIO",
+        "br": "BR0365522978",
         "base": "MONTE SANTO",
         "ativacao": "13:00",
         "desativacao": "22:00"
     },
     "MM020": {
         "codigo": "MM020",
-        "nome": "VANDERSON JOSE DA SILVA CARVALHO",
-        "br": "BR0083918043",
+        "nome": "LUCIANO RODRIGUES DOS SANTOS",
+        "br": "BR0340836248",
         "base": "MONTE SANTO",
-        "ativacao": "",
-        "desativacao": ""
+        "ativacao": "06:00",
+        "desativacao": "15:00"
     },
     "WESLLEY": {
         "codigo": "",
