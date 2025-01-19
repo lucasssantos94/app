@@ -7,6 +7,14 @@
         "ativacao": "06:00",
         "desativacao": "15:00"
     },
+    "MB016": {
+        "codigo": "MB016",
+        "nome": "RENATO FELIX ATANAZIO",
+        "br": "BR0365522978",
+        "base": "BARUERI",
+        "ativacao": "13:00",
+        "desativacao": "22:00"
+    },
     "MC011": {
         "codigo": "MC011",
         "nome": "JOÃO VITOR XAVIER DE SOUZA",
